@@ -1,0 +1,20 @@
+# Some background material
+context
+
+# Agent/session state and instructions -- kept local, not part of the course repo
+.claude
+CLAUDE.md
+
+# Written next to the notebooks when run locally (flux maps, downloaded models)
+notebooks/*.html
+notebooks/*.xml
+notebooks/*.xml.gz
+
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/

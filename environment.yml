@@ -1,0 +1,21 @@
+# Local alternative to Colab for the 27032 metabolic modeling notebooks.
+#
+#   conda env create -f environment.yml
+#   conda activate 27032-metabolic-modeling
+#   jupyter lab
+#
+# Same pins as the notebooks' setup cell: cobra and escher only.
+name: 27032-metabolic-modeling
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - cobra=0.32.1
+  - matplotlib-base  # plots in notebook 02; preinstalled in Colab
+  - jupyterlab
+  - pip
+  - pip:
+      # Not on conda-forge. Optional: flux maps only.
+      - escher==1.8.1
