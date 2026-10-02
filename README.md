@@ -2,7 +2,7 @@
 
 Colab notebooks for the metabolic modeling session of DTU course **27032
 "Introduction to cell factories"**. You will load a genome-scale metabolic model with
-[cobrapy](https://cobrapy.readthedocs.io), set its bounds from real numbers, run flux
+[cobrapy](https://cobrapy.readthedocs.io), set its bounds from custom numbers, run flux
 balance analysis (FBA) and flux variability analysis (FVA), and then do the same on a
 model of your choice. Click a badge to open a notebook in Google Colab -- nothing to
 install. Run the first cell of every notebook before anything else.
